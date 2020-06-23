@@ -35,15 +35,6 @@ public class SyringeSpawner : MonoBehaviour
             syringeCountText.text = syringeCount.ToString();
         }
          
-    }
-    void OnTriggerEnter2D(Collider2D other) {
-
-        if(other.tag == "Virus"){
-
-            Destroy(other.gameObject);
-
-        }
-    
-    }       
+    }    
            
 }
